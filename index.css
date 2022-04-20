@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    list-style: none;
+}
+
 nav{
     position: sticky;
     background-color: #34c3eb;
@@ -31,5 +35,29 @@ nav ul{
 }
 
 nav a{
+    margin: 0px 20px;
+}
+
+footer{
+    background-color: #3493eb;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email-box{
+    margin: 10px 0px 10px 70px;
+    display: flex;
+
+}
+
+.terms-contact{
+     margin: 10px 10px;
+     display: flex;
+     align-items: center;
+}
+
+footer a{
     margin: 0px 20px;
 }
