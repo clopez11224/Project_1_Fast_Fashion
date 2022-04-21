@@ -7,6 +7,10 @@ html{
     list-style: none;
 }
 
+body{
+    background-image: url("image/air.png");
+}
+
 nav{
     position: sticky;
     background-color: #34c3eb;
@@ -39,11 +43,8 @@ nav a{
     margin: 0px 20px;
 }
 
-.content{
-    background-color: #34ebbd;
-}
-
 #air{
+    background-color: #34ebbd;
     text-align: center;
     height: 300px;
     display: flex;
@@ -53,47 +54,53 @@ nav a{
     font-family: Brush Script MT;
 }
 
-.content-container{
-    grid-gap: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+#mainImageTwo{
+     width: 400px;
+    object-fit: cover;
+   height: 500px;
+   padding: 40px 0 40px 200px;
 }
 
-.box-1{
-    background-color: brown;
-    width: 700px;
-    height: 450px;
+.containerOne{
+   display: flex;
+   flex-direction: row;
 }
 
-.box-1-description{
-    background-color: orange;
-    width: 700px;
-    height: 450px;
+p{
+    /*display: inline-block;*/
+    color:  white;
+   font-size: 40px;
+    width: 400px;
+    height: 500px;
+    padding-left: 120px;
+    padding-top: 190px;
+    line-height: 60px;
+    font-family: cursive;
 }
 
-.box-2{
-    background-color: pink;
-    width: 700px;
-    height: 450px;
+.containerTwo{
+    display:flex;
+    flex-direction:row;
 }
 
-.box-2-description{
-    background-color: yellow;
-    width: 700px;
-    height: 450px;
+
+.imageThree{
+  width: 400px;
+  object-fit: cover;
+  height: 500px;
+  padding: 40px 0 40px 200px;
 }
 
-.box-3{
-    background-color: blue;
-    width: 700px;
-    height: 450px;
+.imageFour{
+  width: 500px;
+  object-fit: fill;
+  height: 500px;
+  padding: 40px 0 40px 200px;
 }
 
-.box-3-description{
-    background-color: purple;
-    width: 700px;
-    height: 450px;
+.containerThree{
+    display:flex;
+    flex-direction:row;
 }
 
 footer{
