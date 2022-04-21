@@ -9,10 +9,11 @@ body{
 }
 
 section h1{
-    background-color: #acacac;
+    background-color: #78809e;
     text-align: center;
     height: 200px;
    line-height: 200px;
+   font-family: inherit;
 }
 
 /*div img{*/
@@ -23,14 +24,14 @@ section h1{
 /*    padding: 40px 0 40px 200px;*/
 /*}*/
 
-#imageOne{
+#mainImageTwo{
      width: 400px;
     object-fit: cover;
    height: 500px;
    padding: 40px 0 40px 200px;
 }
 
-.container{
+.containerOne{
    display: flex;
    flex-direction: row;
 }
@@ -71,7 +72,7 @@ html{
 
 nav{
     position: sticky;
-    background-color: #34c3eb;
+    background-color: #0f1014;
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -83,10 +84,12 @@ nav{
 nav i{
     display: flex;
     margin: 10px 10px;
+    color: white;
 }
 
 nav h2{
     margin: auto;
+    color: white;
 }
 
 
@@ -94,16 +97,19 @@ nav ul{
     list-style: none;
     display: flex;
     align-items: center;
+    
 }
 
 nav a{
     margin: 0px 20px;
+    color: white;
 }
 
-.pollutionImage{
+.containerTwo{
     display:flex;
     flex-direction:row;
 }
+
 
 .imageThree{
   width: 400px;
@@ -112,14 +118,24 @@ nav a{
   padding: 40px 0 40px 200px;
 }
 
+.imageFour{
+  width: 500px;
+  object-fit: fill;
+  height: 500px;
+  padding: 40px 0 40px 200px;
+}
 
+.containerThree{
+    display:flex;
+    flex-direction:row;
+}
 
 
 
 
 footer{
-    background-color: grey;
-    height: 40px;
+    background-color: #0f1014;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -133,12 +149,16 @@ footer{
 
 .terms-contact{
     
-     
      display: flex;
      align-items: center;
+    
     
 }
 
 footer a{
     margin: 0px 20px;
+}
+
+li a{
+    color: white;
 }
