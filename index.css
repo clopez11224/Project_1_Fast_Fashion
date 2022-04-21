@@ -9,7 +9,7 @@ html{
 
 nav{
     position: sticky;
-    background-color: #34c3eb;
+    background-color: #0f1014;
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -21,10 +21,12 @@ nav{
 nav i{
     display: flex;
     margin: 10px 10px;
+    color: white;
 }
 
 nav h2{
     margin: auto;
+    color: white;
 }
 
 
@@ -36,11 +38,51 @@ nav ul{
 
 nav a{
     margin: 0px 20px;
+    color: white;
 }
 
+body{
+    background-color: #631e1e;
+}
+
+body h1{
+    color: #18de7b;
+    text-align: center;
+}
+
+#FFmeaning{
+    text-align: center;
+    color: white;
+   
+}
+
+/*footer{*/
+/*    background-color: #3493eb;*/
+/*    height: 40px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.email-box{*/
+/*    margin: 10px 0px 10px 70px;*/
+/*    display: flex;*/
+
+/*}*/
+
+/*.terms-contact{*/
+/*     margin: 10px 10px;*/
+/*     display: flex;*/
+/*     align-items: center;*/
+/*}*/
+
+/*footer a{*/
+/*    margin: 0px 20px;*/
+/*}*/
+
 footer{
-    background-color: #3493eb;
-    height: 40px;
+    background-color: #0f1014;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,11 +95,103 @@ footer{
 }
 
 .terms-contact{
-     margin: 10px 10px;
+    
      display: flex;
      align-items: center;
+    
+    
 }
 
 footer a{
     margin: 0px 20px;
 }
+
+
+/*Image/body*/
+/*Image-One*/
+.containerTwo{
+   display: flex;
+   flex-direction: row;
+}
+
+#mainImageTwo{
+     width: 600px;
+    object-fit: cover;
+   height: 500px;
+   padding: 40px 0 40px 90px;
+}
+
+#mainDescriptionTwo {
+    color:  black;
+   font-size: 40px;
+    width: 400px;
+    height: 500px;
+    padding-left: 120px;
+    padding-top: 190px;
+    line-height: 60px;
+    font-family: cursive;
+}
+
+div a{
+    color:#18de7b;
+}
+/*Image-Two*/
+.containerThree{
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+#mainImageThree{
+     width: 600px;
+    object-fit: cover;
+   height: 500px;
+   padding: 0 90px 0 0;
+}
+
+#mainDescriptionThree{
+    color:  white;
+   font-size: 40px;
+    width: 400px;
+    height: 500px;
+    padding-right: 120px;
+    padding-top: 190px;
+    line-height: 60px;
+    font-family: cursive;
+}
+
+/*Image-Three*/
+.containerFour{
+   display: flex;
+   flex-direction: row;
+}
+
+#mainImageFour{
+     width: 600px;
+    object-fit: cover;
+   height: 500px;
+   padding: 40px 0 40px 90px;
+}
+
+#mainDescriptionFour{
+    color:  black;
+   font-size: 40px;
+    width: 400px;
+    height: 500px;
+    padding-left: 120px;
+    padding-top: 190px;
+    line-height: 60px;
+    font-family: cursive;
+}
+
+#FFVideo{
+    display:flex;
+    justify-content:center;
+    padding:0 0 50px 0;
+}
+
+#VideoDescription{
+    text-align: center;
+    color: #18de7b;
+    font-size: 30px;
+}
+
