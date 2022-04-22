@@ -16,14 +16,6 @@ section h1{
    font-family: inherit;
 }
 
-/*div img{*/
-    
-/*    width: 400px;*/
-/*    object-fit: cover;*/
-/*    height: 500px;*/
-/*    padding: 40px 0 40px 200px;*/
-/*}*/
-
 #mainImageTwo{
      width: 400px;
     object-fit: cover;
@@ -31,15 +23,14 @@ section h1{
    padding: 40px 0 40px 200px;
 }
 
-.containerOne{
+.container{
    display: flex;
    flex-direction: row;
 }
 
 p{
-    /*display: inline-block;*/
     color:  white;
-   font-size: 40px;
+    font-size: 40px;
     width: 400px;
     height: 500px;
     padding-left: 120px;
@@ -47,20 +38,6 @@ p{
     line-height: 60px;
     font-family: cursive;
 }
-
-
-/*footer {*/
-/*   background-color: grey;*/
-/*   background-color: #060606;*/
-/*   height: 60px;*/
-/*   position: sticky;*/
-/*}*/
-
-/*.email-box {*/
-/*    padding-top: 20px;*/
-/*    padding-left: 20px;*/
-/*    padding-bottom: 10px;*/
-/*}*/
 
 nav h2{
     margin: auto;
@@ -73,7 +50,7 @@ html{
 nav{
     position: sticky;
     background-color: #0f1014;
-    height: 80px;
+    padding: 30px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -92,24 +69,16 @@ nav h2{
     color: white;
 }
 
-
 nav ul{
     list-style: none;
     display: flex;
     align-items: center;
-    
 }
 
 nav a{
     margin: 0px 20px;
     color: white;
 }
-
-.containerTwo{
-    display:flex;
-    flex-direction:row;
-}
-
 
 .imageThree{
   width: 400px;
@@ -125,17 +94,9 @@ nav a{
   padding: 40px 0 40px 200px;
 }
 
-.containerThree{
-    display:flex;
-    flex-direction:row;
-}
-
-
-
-
 footer{
     background-color: #0f1014;
-    height: 70px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -148,10 +109,8 @@ footer{
 }
 
 .terms-contact{
-    
      display: flex;
      align-items: center;
-    
     
 }
 
@@ -161,4 +120,42 @@ footer a{
 
 li a{
     color: white;
+}
+
+@media only screen and (max-width: 705px) {
+    
+    nav{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    h1{
+        justify-content: center;
+    }
+    
+}
+
+@media only screen and (max-width: 940px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    footer{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    p{
+        padding-left: 0;
+    }
+    
+    .imageFour{
+        width: 350px;
+        height: 350px;
+    }
 }
