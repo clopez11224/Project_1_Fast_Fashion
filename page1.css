@@ -165,4 +165,9 @@ footer a{
     p{
         padding-left: 0;
     }
+    
+    .imageFour{
+        width: 350px;
+        height: 350px;
+    }
 }

@@ -10,7 +10,7 @@ html{
 nav{
     position: sticky;
     background-color: #0f1014;
-    height: 80px;
+    padding: 30px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -82,7 +82,7 @@ body h1{
 
 footer{
     background-color: #0f1014;
-    height: 70px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -109,7 +109,7 @@ footer a{
 
 /*Image/body*/
 /*Image-One*/
-.containerTwo{
+.container{
    display: flex;
    flex-direction: row;
 }
@@ -160,10 +160,7 @@ div a{
 }
 
 /*Image-Three*/
-.containerFour{
-   display: flex;
-   flex-direction: row;
-}
+
 
 #mainImageFour{
      width: 600px;
@@ -195,3 +192,44 @@ div a{
     font-size: 30px;
 }
 
+@media only screen and (max-width: 705px) {
+    
+    nav{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    h1{
+        justify-content: center;
+    }
+    
+    p{
+        justify-content: center;
+    }
+    
+}
+
+@media only screen and (max-width: 940px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .containerThree{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    footer{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    p{
+        padding-left: 0;
+    }
+}
