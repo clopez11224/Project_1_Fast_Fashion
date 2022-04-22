@@ -14,7 +14,7 @@ body{
 nav{
     position: sticky;
     background-color: #34c3eb;
-    height: 80px;
+    padding: 30px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -43,6 +43,8 @@ nav a{
     margin: 0px 20px;
 }
 
+
+
 #air{
     background-color: #34ebbd;
     text-align: center;
@@ -58,12 +60,14 @@ nav a{
      width: 400px;
     object-fit: cover;
    height: 500px;
-   padding: 40px 0 40px 200px;
+   /*padding: 40px 0 40px 200px;*/
 }
 
-.containerOne{
+.container{
    display: flex;
    flex-direction: row;
+   justify-content: center;
+   margin-top: 30px;
 }
 
 p{
@@ -78,34 +82,36 @@ p{
     font-family: cursive;
 }
 
-.containerTwo{
-    display:flex;
-    flex-direction:row;
-}
+/*#containerTwo{*/
+/*    display:flex;*/
+/*    flex-direction:row;*/
+/*    justify-content: center;*/
+/*}*/
 
 
 .imageThree{
   width: 400px;
   object-fit: cover;
   height: 500px;
-  padding: 40px 0 40px 200px;
+ 
 }
 
 .imageFour{
   width: 500px;
   object-fit: fill;
   height: 500px;
-  padding: 40px 0 40px 200px;
+  
 }
 
-.containerThree{
-    display:flex;
-    flex-direction:row;
-}
+/*.containerThree{*/
+/*    display:flex;*/
+/*    flex-direction:row;*/
+/*    justify-content: center;*/
+/*}*/
 
 footer{
     background-color: #3493eb;
-    height: 40px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -114,6 +120,7 @@ footer{
 .email-box{
     margin: 10px 0px 10px 70px;
     display: flex;
+    
 
 }
 
@@ -125,4 +132,37 @@ footer{
 
 footer a{
     margin: 0px 20px;
+}
+
+@media only screen and (max-width: 705px) {
+    
+    nav{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    h1{
+        justify-content: center;
+    }
+    
+}
+
+@media only screen and (max-width: 940px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    footer{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    p{
+        padding-left: 0;
+    }
 }
