@@ -10,7 +10,7 @@ html{
 nav{
     position: sticky;
     background-color: #34c3eb;
-    height: 80px;
+    padding: 30px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -39,14 +39,14 @@ nav a{
     margin: 0px 20px;
 }
 
-.content{
+body{
     /*background-color: #34ebbd;*/
     background-image: url("image/backgroundpic.png");
 }
-.container{
-    display: flex;
-    flex-direction:column;
-}
+/*.container{*/
+/*    display: flex;*/
+/*    flex-direction:column;*/
+/*}*/
 p{
     
     color:  white;
@@ -72,7 +72,7 @@ p{
 
 footer{
     background-color: #3493eb;
-    height: 40px;
+    padding:20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -93,53 +93,56 @@ footer{
 footer a{
     margin: 0px 20px;
 }
-/*body{*/
-/*    background-image: url("image/water3.png");*/
-/*}*/
-.container{
-    display: flex;
-}
-
 #waterOne{
     width: 400px;
     object-fit: cover;
    height: 500px;
-   padding: 40px 0px 40px 200px;
 }
 #waterFour{
     width: 400px;
     object-fit: cover;
    height: 500px;
-   padding: 40px 0px 40px 200px;
 }
 #middlepic{
     width: 400px;
     object-fit: cover;
    height: 500px;
-   padding: 40px 0px 40px 200px;
 }
-.water1{
+.childcontainer{
     display: flex;
    flex-direction: row;
+   justify-content:center;
+   margin-top: 30px;
 }
-.water2{
-    display: flex;
-   flex-direction: row;
-}
-.water4{
-    display: flex;
-   flex-direction: row;
-}
-@media only-screen and (max-width: 705px) {
-    /*.content {*/
-    /*    display:flex;*/
-    /*    flex-flow:row-wrap;*/
-    /*}*/
+@media only screen and (max-width: 705px) {
+    
     nav{
-    background-color: red
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content:center;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    h1{
+        justify-content: center;
+    }
+    
+}
+
+@media only screen and (max-width: 940px) {
+    .childcontainer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    footer{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    p{
+        padding-left: 0;
     }
 }
