@@ -9,6 +9,7 @@ html{
 
 nav{
     position: sticky;
+    top: 0;
     background-color: #0f1014;
     padding: 30px;
     display: flex;
@@ -47,44 +48,110 @@ nav a{
 }
 
 body{
-    background-color: #631e1e;
+    background-image: linear-gradient(90deg, #022b0b 0%, #197517 55%, #6dca07 100%);
 }
 
 body h1{
-    color: #18de7b;
+    color: white;
     text-align: center;
-    margin-top: 10px;
+    margin: 40px 0px;
 }
 
 #FFmeaning{
     text-align: center;
     color: white;
-   padding-top: 20px;
+    margin: 40px 200px;
 }
 
-/*footer{*/
-/*    background-color: #3493eb;*/
-/*    height: 40px;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: space-between;*/
-/*}*/
+.video-container{
+    display: flex;
+    flex-direction: column;
+}
 
-/*.email-box{*/
-/*    margin: 10px 0px 10px 70px;*/
-/*    display: flex;*/
 
-/*}*/
+#VideoDescription{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 20px 0px;
+    
+}
 
-/*.terms-contact{*/
-/*     margin: 10px 10px;*/
-/*     display: flex;*/
-/*     align-items: center;*/
-/*}*/
+#FFVideo{
+    display:flex;
+    justify-content: center;
+    object-fit: cover;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
 
-/*footer a{*/
-/*    margin: 0px 20px;*/
-/*}*/
+.container-one{
+   display: flex;
+   flex-direction: row;
+}
+
+#main-image-one{
+     width: 600px;
+    object-fit: cover;
+   height: 500px;
+   padding: 40px 0 40px 90px;
+}
+
+#main-description-one {
+    color:  white;
+   font-size: 40px;
+    width: 400px;
+    height: 500px;
+    padding-left: 120px;
+    padding-top: 190px;
+    line-height: 60px;
+    font-family: cursive;
+}
+
+.container-two{
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+#main-image-two{
+     width: 600px;
+    object-fit: cover;
+   height: 500px;
+   padding: 0 90px 0 0;
+}
+
+#main-description-two{
+    color:  white;
+   font-size: 40px;
+    width: 400px;
+    height: 500px;
+    padding-right: 120px;
+    padding-top: 190px;
+    line-height: 60px;
+    font-family: cursive;
+}
+
+#main-image-three{
+     width: 600px;
+    object-fit: cover;
+   height: 500px;
+   padding: 40px 0 40px 90px;
+}
+
+#main-description-three{
+    color:  white;
+   font-size: 40px;
+    width: 400px;
+    height: 500px;
+    padding-left: 120px;
+    padding-top: 190px;
+    line-height: 60px;
+    font-family: cursive;
+}
+
+#find-out-link{
+    text-decoration: none;
+}
 
 footer{
     background-color: #0f1014;
@@ -110,103 +177,7 @@ footer{
 
 footer a{
     margin: 0px 20px;
-}
-
-
-/*Image/body*/
-/*Image-One*/
-.container{
-   display: flex;
-   flex-direction: row;
-}
-
-#mainImageTwo{
-     width: 600px;
-    object-fit: cover;
-   height: 500px;
-   padding: 40px 0 40px 90px;
-}
-
-#mainDescriptionTwo {
-    color:  black;
-   font-size: 40px;
-    width: 400px;
-    height: 500px;
-    padding-left: 120px;
-    padding-top: 190px;
-    line-height: 60px;
-    font-family: cursive;
-}
-
-div a{
-    color:#18de7b;
-}
-/*Image-Two*/
-.containerThree{
-   display: flex;
-   flex-direction: row-reverse;
-}
-
-#mainImageThree{
-     width: 600px;
-    object-fit: cover;
-   height: 500px;
-   padding: 0 90px 0 0;
-}
-
-#mainDescriptionThree{
-    color:  white;
-   font-size: 40px;
-    width: 400px;
-    height: 500px;
-    padding-right: 120px;
-    padding-top: 190px;
-    line-height: 60px;
-    font-family: cursive;
-}
-
-/*Image-Three*/
-
-
-#mainImageFour{
-     width: 600px;
-    object-fit: cover;
-   height: 500px;
-   padding: 40px 0 40px 90px;
-}
-
-#mainDescriptionFour{
-    color:  black;
-   font-size: 40px;
-    width: 400px;
-    height: 500px;
-    padding-left: 120px;
-    padding-top: 190px;
-    line-height: 60px;
-    font-family: cursive;
-}
-
-.video-container{
-    display: flex;
-    flex-direction: column;
-}
-
-#FFVideo{
-    display:flex;
-    justify-content: center;
-    object-fit: cover;
-    margin: auto;
-    height: auto;
-    width: 80vw;
-    
-}
-
-#VideoDescription{
-    text-align: center;
-    color: #18de7b;
-    font-size: 30px;
-    margin: 20px 0px;
-    
+    color: white;
 }
 
 @media only screen and (max-width: 705px) {
