@@ -13,7 +13,8 @@ body{
 
 nav{
     position: sticky;
-    background-color: #34c3eb;
+    top: 0;
+    background-color: #0f1014;
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -25,13 +26,14 @@ nav{
 nav i{
     display: flex;
     margin: 10px 10px;
+    color: white;
+    margin-left: 130px;
 }
 
 nav h2{
-    margin: auto;
-    font-family:  Charlotte Sans;
+    color: white;
+    font-size: 40px;
 }
-
 
 nav ul{
     list-style: none;
@@ -40,13 +42,12 @@ nav ul{
 }
 
 nav a{
-    margin: 0px 20px;
+    margin: 10px 20px;
+    color: white;
 }
 
-
-
 #air{
-    background-color: #34ebbd;
+    color: white;
     text-align: center;
     height: 300px;
     display: flex;
@@ -57,21 +58,19 @@ nav a{
 }
 
 #mainImageTwo{
-     width: 400px;
+    width: 400px;
     object-fit: cover;
-   height: 500px;
-   /*padding: 40px 0 40px 200px;*/
+    height: 500px;
 }
 
 .container{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 p{
-    /*display: inline-block;*/
     color:  white;
    font-size: 40px;
     width: 400px;
@@ -81,13 +80,6 @@ p{
     line-height: 60px;
     font-family: cursive;
 }
-
-/*#containerTwo{*/
-/*    display:flex;*/
-/*    flex-direction:row;*/
-/*    justify-content: center;*/
-/*}*/
-
 
 .imageThree{
   width: 400px;
@@ -103,14 +95,8 @@ p{
   
 }
 
-/*.containerThree{*/
-/*    display:flex;*/
-/*    flex-direction:row;*/
-/*    justify-content: center;*/
-/*}*/
-
 footer{
-    background-color: #3493eb;
+    background-color: #0f1014;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -120,8 +106,6 @@ footer{
 .email-box{
     margin: 10px 0px 10px 70px;
     display: flex;
-    
-
 }
 
 .terms-contact{
@@ -132,6 +116,7 @@ footer{
 
 footer a{
     margin: 0px 20px;
+    color: white;
 }
 
 @media only screen and (max-width: 705px) {
@@ -140,6 +125,9 @@ footer a{
         flex-direction: column;
         align-items: center;
     
+    }
+    nav i{
+        margin-left: 0px;
     }
     
     h1{
