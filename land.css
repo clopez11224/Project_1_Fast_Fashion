@@ -9,23 +9,26 @@ body{
 }
 
 section h1{
-    background-color: #78809e;
-    text-align: center;
-    height: 200px;
-   line-height: 200px;
-   font-family: inherit;
+    color: white;
+    text-align:center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-family:Brush Script MT;
 }
 
 #mainImageTwo{
-     width: 400px;
+    width: 400px;
     object-fit: cover;
-   height: 500px;
-   padding: 40px 0 40px 200px;
+    height: 500px;
+    padding: 40px 0 40px 200px;
 }
 
 .container{
-   display: flex;
-   flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 p{
@@ -39,16 +42,13 @@ p{
     font-family: cursive;
 }
 
-nav h2{
-    margin: auto;
-}
-
 html{
     list-style: none;
 }
 
 nav{
     position: sticky;
+    top: 0;
     background-color: #0f1014;
     padding: 30px;
     display: flex;
@@ -62,11 +62,12 @@ nav i{
     display: flex;
     margin: 10px 10px;
     color: white;
+    margin-left: 130px;
 }
 
 nav h2{
-    margin: auto;
     color: white;
+    font-size: 40px;
 }
 
 nav ul{
@@ -105,13 +106,12 @@ footer{
 .email-box{
     margin: 10px 0px 10px 70px;
     display: flex;
-
 }
 
 .terms-contact{
+    margin: 10px 10px;
      display: flex;
      align-items: center;
-    
 }
 
 footer a{
@@ -128,6 +128,9 @@ li a{
         flex-direction: column;
         align-items: center;
     
+    }
+    nav i{
+        margin-left: 0px;
     }
     
     h1{
