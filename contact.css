@@ -24,12 +24,12 @@ section h1{
     width: 400px;
     object-fit: cover;
     height: 500px;
-    padding: 40px 0 40px 200px;
 }
 
 .container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 p{
@@ -63,7 +63,7 @@ nav i{
     display: flex;
     margin: 10px 10px;
     color: white;
-    margin-left: 130px;
+    margin-left: 160px;
 }
 
 nav h2{
@@ -78,22 +78,29 @@ nav ul{
 }
 
 nav a{
-    margin: 0px 20px;
+    margin: 10px 20px;
     color: white;
+    font-size: 20px;
 }
 
 .imageThree{
   width: 400px;
   object-fit: cover;
   height: 500px;
-  padding: 40px 0 40px 200px;
 }
 
 .imageFour{
   width: 500px;
   object-fit: fill;
   height: 500px;
-  padding: 40px 0 40px 200px;
+}
+
+div a{
+    text-decoration: none;
+}
+
+div img{
+    border-radius: 20%;
 }
 
 footer{
@@ -165,14 +172,8 @@ li a{
 }
 
 
-html, body {
-    height: 100%
-}
 
-body {
-    font-family: sans-serif;
-    font-weight: 400;
-}
+
 
 
 .containerTWO{
