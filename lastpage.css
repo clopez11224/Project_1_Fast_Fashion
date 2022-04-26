@@ -54,9 +54,11 @@ h1{
     margin: 20px;
 }
 .helplinks{
-    margin: 30px;
-    padding:0px;
-    
+    margin: 40px;
+    padding:40px;
+}
+h5{
+    margin-bottom: 10px;
 }
 footer{
     background-color: #0f1014;
@@ -85,3 +87,31 @@ footer a{
 li a{
     color: white;
 }
+@media only screen and (max-width: 705px) {
+    
+    nav{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    nav i{
+        margin-left: 0px;
+    }
+    
+    h1{
+        justify-content: center;
+    }
+    
+}
+@media{
+    .signup{
+    margin: 30px 50px;
+    }
+}
+/*@media{*/
+/*.helplinks{*/
+/*    margin: 40px;*/
+    /*padding:10px;*/
+/*    }*/
+/*}*/
