@@ -5,7 +5,8 @@
 }
 
 body{
-    background-image: url("image/polution.png");
+   background-color: black;
+    /*background-image: url("image/polution.png");*/
 }
 
 section h1{
@@ -33,12 +34,12 @@ section h1{
 
 p{
     color:  white;
-    font-size: 40px;
+    font-size: 20px;
     width: 400px;
     height: 500px;
-    padding-left: 120px;
-    padding-top: 190px;
-    line-height: 60px;
+    margin-left: 120px;
+    padding-top: 80px;
+    line-height: 40px;
     font-family: cursive;
 }
 
