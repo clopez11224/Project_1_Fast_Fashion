@@ -103,9 +103,13 @@ div img{
     width: 400px;
     height: 500px;
     padding-left: 120px;
-    padding-top: 190px;
+    padding-top: 150px;
     line-height: 60px;
     font-family: cursive;
+}
+
+#main-description-one:hover{
+    color: black;
 }
 
 .container-two{
@@ -126,9 +130,13 @@ div img{
     width: 400px;
     height: 500px;
     padding-right: 120px;
-    padding-top: 190px;
+    padding-top: 150px;
     line-height: 60px;
     font-family: cursive;
+}
+
+#main-description-two:hover{
+    color: black;
 }
 
 #main-image-three{
@@ -143,9 +151,13 @@ div img{
     width: 400px;
     height: 500px;
     padding-left: 120px;
-    padding-top: 190px;
+    padding-top: 150px;
     line-height: 60px;
     font-family: cursive;
+}
+
+#main-description-three:hover{
+    color: black;
 }
 
 div a {
@@ -154,6 +166,10 @@ div a {
 
 #find-out-link{
     text-decoration: none;
+}
+
+#find-out:hover{
+    color: black;
 }
 
 footer{
