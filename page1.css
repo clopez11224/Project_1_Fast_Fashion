@@ -68,7 +68,7 @@ nav a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 30px;
+    margin-bottom: 200px;
 }
 
 div img{
@@ -81,13 +81,16 @@ div a {
 
 p{
     color:  white;
-   font-size: 40px;
+   font-size: 20px;
     width: 400px;
     height: 500px;
-    padding-left: 120px;
-    padding-top: 190px;
+    margin-left: 120px;
     line-height: 60px;
     font-family: cursive;
+}
+
+p:hover{
+    color: black;
 }
 
 .imageThree{
